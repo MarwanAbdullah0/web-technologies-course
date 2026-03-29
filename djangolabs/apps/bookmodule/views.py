@@ -1,8 +1,9 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
+
 def index(request):
     name = request.GET.get("name") or "world!" 
-    return render(request, "bookmodule/index.html" , {"name": name}) 
+    return render(request, "bookmodule/index.html", {"name": name})
 
 def index2(request, val1 = 0): 
     return HttpResponse("value1 = "+str(val1))
