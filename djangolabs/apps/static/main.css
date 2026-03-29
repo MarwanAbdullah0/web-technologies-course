@@ -1,0 +1,110 @@
+h1 {
+  color: green;
+  background-color: #96df79;
+  font-family: "Times New Roman", serif;
+  font-size: 66px;
+  font-weight: 700;
+  padding: 16px 18px;
+  margin: 16px 0;
+}
+
+.listing-page {
+  margin-top: 14px;
+}
+
+.listing-title {
+  color: #f3f2ef;
+  background-color: #4755f7;
+  font-family: "Times New Roman", serif;
+  font-size: 66px;
+  font-weight: 700;
+  padding: 16px 18px;
+  margin: 16px 0 20px;
+}
+
+.listing-content {
+  font-family: "Times New Roman", serif;
+  font-size: 42px;
+  line-height: 1.15;
+}
+
+.listing-content ul,
+.listing-content ol {
+  margin-top: 0;
+}
+
+.tables-page {
+  font-family: "Times New Roman", serif;
+  margin-top: 12px;
+}
+
+.fruit-table {
+  margin: 0 auto 22px;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.fruit-table,
+.fruit-table th,
+.fruit-table td {
+  border: 2px solid #8d8d8d;
+}
+
+.fruit-table caption {
+  caption-side: top;
+  text-align: left;
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 4px;
+  line-height: 1.1;
+}
+
+.fruit-table th,
+.fruit-table td {
+  padding: 4px 10px;
+  text-align: left;
+}
+
+.table-two-title {
+  text-align: center;
+  font-size: 26px;
+  margin: 12px 0 2px;
+}
+
+.camelid-table {
+  width: 86%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-size: 18px;
+}
+
+.camelid-table,
+.camelid-table th,
+.camelid-table td {
+  border: 2px solid #9c9c9c;
+}
+
+.camelid-table th,
+.camelid-table td {
+  padding: 6px 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.camelid-table .image-cell {
+  width: 360px;
+  padding: 8px;
+}
+
+.camelid-table .image-cell img {
+  width: 100%;
+  height: 290px;
+  object-fit: cover;
+  display: block;
+}
+
+.camelid-table .camelid-heading {
+  font-size: 28px;
+  height: 220px;
+  line-height: 1.1;
+}

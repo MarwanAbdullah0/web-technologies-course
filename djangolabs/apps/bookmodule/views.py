@@ -28,3 +28,11 @@ def viewbook(request, bookId):
     return render(request, 'bookmodule/one_book.html')
 def aboutus(request):
     return render(request, 'bookmodule/aboutus.html')
+def html_links(request):
+    return render(request, 'bookmodule/html_links.html')
+def html_text_formatting(request):
+    return render(request, 'bookmodule/html_text_formatting.html')
+def html_listing(request):
+    return render(request, 'bookmodule/html_listing.html')
+def html_tables(request):
+    return render(request, 'bookmodule/html_tables.html')
