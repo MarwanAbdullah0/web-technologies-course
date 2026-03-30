@@ -1,0 +1,74 @@
+{% extends "layouts/base.html" %} {% load static %} {% block title %} HTML Links
+{% endblock title %} {% block stylesheets %}
+<style>
+  .links-wrapper {
+    margin-top: 14px;
+  }
+
+  .link-row {
+    min-height: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .link-row a {
+    font-family: "Times New Roman", serif;
+    font-size: 42px;
+    text-decoration: underline;
+  }
+
+  .row-one {
+    background-color: green;
+  }
+
+  .row-one a {
+    color: red;
+  }
+
+  .row-two {
+    background-color: gray;
+  }
+
+  .row-two a {
+    color: yellow;
+  }
+
+  .row-three {
+    background-color: black;
+  }
+
+  .row-three a {
+    color: #ffffff;
+  }
+
+  @media (max-width: 900px) {
+    .link-row a {
+      font-size: 32px;
+      text-align: center;
+      line-height: 1.35;
+      padding: 10px 16px;
+    }
+  }
+</style>
+{% endblock stylesheets %} {% block content %}
+<div class="links-wrapper">
+  <div class="link-row row-one">
+    <a href="https://myqu.qu.edu.sa/" target="_blank" rel="noopener">
+      Go to QU website (open a new tab)
+    </a>
+  </div>
+
+  <div class="link-row row-two">
+    <a href="https://myqu.qu.edu.sa/">
+      Go to QU website (open in the same page/tab)
+    </a>
+  </div>
+
+  <div class="link-row row-three">
+    <a href="https://myqu.qu.edu.sa/">
+      Go to QU website (open in the same page/tab)
+    </a>
+  </div>
+</div>
+{% endblock content %}
